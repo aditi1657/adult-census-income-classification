@@ -1,4 +1,4 @@
-# 🧠 Adult Census Income Classification
+#  Adult Census Income Classification
 ### MP Online Internship – Machine Learning Assignment
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
@@ -8,20 +8,20 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project is part of the **MP Online Internship Program** and involves building a complete **binary classification pipeline** on the [Adult Census Income Dataset](https://www.kaggle.com/datasets/uciml/adult-census-income).
 
-The goal is to predict whether an individual's annual income **exceeds $50,000** based on demographic and employment-related features.
+The goal is to predict whether an individual's annual income **exceeds $50,000** based on demographic and employment-related features. In this project, I worked on predicting income levels using census data. This was my first time working with a real-world imbalanced dataset and I learned a lot about how data cleaning affects model performance.
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-📦 adult-census-income-classification/
+ adult-census-income-classification/
 │
-├── 📄 assignment_solution.py       # Complete Python solution (all 5 tasks)
+├── 📄 app.py       # Complete Python solution (all 5 tasks)
 ├── 📄 requirements.txt             # All required Python libraries
 ├── 📄 README.md                    # Project documentation (this file)
 │
@@ -54,26 +54,26 @@ The goal is to predict whether an individual's annual income **exceeds $50,000**
 
 ## ✅ Tasks Completed
 
-### Task 1 – Dataset Understanding (10 Marks)
+### Task 1 – Dataset Understanding 
 - Loaded and explored the dataset
 - Examined shape, data types, and column names
 - Generated statistical summary using `describe()`
 - Visualized **target variable distribution** with a bar chart
 
-### Task 2 – Data Cleaning (20 Marks)
+### Task 2 – Data Cleaning 
 - Replaced `'?'` entries with `NaN`
 - Imputed missing values using **mode** (most frequent value)
 - Removed **duplicate rows**
 - Stripped extra whitespace from all categorical columns
 
-### Task 3 – Feature Engineering (15 Marks)
+### Task 3 – Feature Engineering 
 - Applied **Label Encoding** to all categorical columns
 - Encoded the target variable: `<=50K → 0`, `>50K → 1`
 - Generated a **Correlation Heatmap**
 - Applied **StandardScaler** for feature normalization
 - Performed **80:20 stratified train-test split**
 
-### Task 4 – Model Building (30 Marks)
+### Task 4 – Model Building
 
 Trained **5 Classification Algorithms**:
 
@@ -85,7 +85,7 @@ Trained **5 Classification Algorithms**:
 | 4 | K-Nearest Neighbors (KNN) | `sklearn.neighbors` |
 | 5 | Support Vector Machine (SVM) | `sklearn.svm` |
 
-### Task 5 – Performance Evaluation (15 Marks)
+### Task 5 – Performance Evaluation 
 
 Evaluated all models on:
 - **Accuracy**
@@ -136,14 +136,14 @@ Download `adult.csv` from [Kaggle](https://www.kaggle.com/datasets/uciml/adult-c
 
 ### 4. Run the Script
 ```bash
-python assignment_solution.py
+python app.py
 ```
 
 All output charts and the results CSV will be automatically saved.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python 3.8+
 - **Data Handling:** Pandas, NumPy
@@ -152,21 +152,21 @@ All output charts and the results CSV will be automatically saved.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**[Your Full Name]**
+**Aditi Gupta , VIT Bhopal University**
 MP Online Internship – Machine Learning Track
-Batch: [Your Batch Name / Year]
+Batch: [2023]
 
 ---
 
-## 📬 Mentor
+## Mentor
 
 **Dr. Nishant Shrivastava**
 MP Online Internship Program
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes under the MP Online Internship Program.
