@@ -7,12 +7,12 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
-
 ## Project Overview
 
 This project is part of the **MP Online Internship Program** and involves building a complete **binary classification pipeline** on the [Adult Census Income Dataset](https://www.kaggle.com/datasets/uciml/adult-census-income).
 
 The goal is to predict whether an individual's annual income **exceeds $50,000** based on demographic and employment-related features. In this project, I worked on predicting income levels using census data. This was my first time working with a real-world imbalanced dataset and I learned a lot about how data cleaning affects model performance.
+
 
 ---
 
@@ -104,8 +104,6 @@ Generated:
 
 ## 📈 Results Summary
 
-> *(Actual values are generated when you run the script)*
-
 | Algorithm | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
 |-----------|----------|-----------|--------|----------|---------|
 | Logistic Regression | ~0.85 | ~0.73 | ~0.60 | ~0.66 | ~0.91 |
@@ -114,7 +112,7 @@ Generated:
 | KNN | ~0.84 | ~0.70 | ~0.60 | ~0.65 | ~0.89 |
 | SVM | ~0.85 | ~0.75 | ~0.57 | ~0.65 | ~0.91 |
 
-> 🏆 **Random Forest** achieves the best overall performance.
+>  **Random Forest** achieves the best overall performance.
 
 ---
 
@@ -154,9 +152,10 @@ All output charts and the results CSV will be automatically saved.
 
 ## Author
 
-**Aditi Gupta , VIT Bhopal University**
+**Aditi Gupta (23MIM10204) , VIT Bhopal University**
 MP Online Internship – Machine Learning Track
 Batch: [2023]
+
 
 ---
 
